@@ -10,7 +10,13 @@ This script checks the referential integrity of a SQL Server database. It does t
 
 ## Usage
 
-To use this script, you will need to install the `pyodbc` library. Then, run the following command:
+To use this script, you have to install the requirements running the following command:
+
+```
+pip install -r requirements.txt
+```
+
+Then, run the following command:
 
 ```
 python audit_script.py
